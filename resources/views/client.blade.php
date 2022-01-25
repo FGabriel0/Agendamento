@@ -3,9 +3,11 @@
 @section('title', 'Agendamento')
     
 @section('content')
+      <div class="text-client">
         <h1>AGENDAMENTO</h1>
+      </div>
 
-        <form>
+        <form class="salao-form">
             <div class="form-group">
               <label for="exampleFormControlInput1">Nome:</label>
               <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu nome">
@@ -30,7 +32,7 @@
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Alguma sugestão para o corte?"></textarea>
             </div>
           </form>
-          <button type="submit" class="btn btn-primary mb-2">Enviar</button>
+          <button type="submit" class="submit-btn">Enviar</button>
 
  @include('layouts.footer')
 
