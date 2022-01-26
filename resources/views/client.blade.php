@@ -20,6 +20,14 @@
                 <label for="exampleFormControlSelect1">Escolha uma Data:</label>
                 <input type="date" class="form-control" id="date" placeholder="Escolha uma data">
               </div>
+              <div class="form-group">
+                <label for="exampleFormControlSelect2">Horários Disponiveis:</label>
+                <select name="horarios" id="horarios" class="form-control">
+                    <option>11:30</option>
+                    <option>13:00</option>
+                </select>
+              </div>
+             
             <div class="form-group">
               <label for="exampleFormControlSelect2">Cortes:</label>
               <select name="cortes" id="cortes" class="form-control">
@@ -34,6 +42,6 @@
           </form>
           <button type="submit" class="submit-btn">Enviar</button>
 
- @include('layouts.footer')
+@include('layouts.footer')
 
 @endsection

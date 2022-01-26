@@ -17,10 +17,13 @@
     height: 100%;
 
   }
+
+.container{
+  margin: 0;
+  padding: 0;
+}
   .banner{
     background-color: black;
-    width: 100%;
-    height: 70%;
     margin-bottom: 40px;
 }
   .banner h1{
@@ -34,7 +37,7 @@
   .banner p{
     font-family: "Josefin Slab", serif;
     color: white;
-    font-size: 50pt;
+    font-size: 45pt;
     font-weight: bold;
     padding-left: 20px;
 
@@ -42,10 +45,11 @@
 
 .banner-img{
    position: absolute;
-   display: fixed;
-   margin-left: 60%;
+   display: flex;
+   margin-left: 50%;
    margin-top: -13%;
   }
+
   .banner-img img{
     height: 350px;
     width: 350px;
@@ -64,12 +68,13 @@
   border: none; 
   height: 100px;
   width: 130px;
-  color: white;
-  background-color:rgba(255, 255, 255, 0.664);
+ background-color: rgb(207, 202, 202);
+  color:#fff5f5;
   margin-left: 50px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   cursor: pointer;
 }
+
 .button-btns:hover{
   background-color: transparent;
   color: black;
@@ -107,7 +112,7 @@
     width: 100px;
     font-size: 16px;
     margin: 0 auto;
-    margin-left: 46%;
+    margin-left: 45%;
     margin-bottom: 10px;
     cursor: pointer;
     transition: .5s;
@@ -118,76 +123,67 @@
   }
 
       /* CARDS */
-  
-  .projetos{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.sessao-header{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .sessao-header h1{
   font-family:"Baloo Da 2" serif;
   font-size: 3rem;
   color: black;
+  text-align: center;
   border-bottom: solid 10px;
   margin-bottom: 1.5rem;
-}
-.card{
-    width: 18rem;
-    height: 25rem;
-    position: relative;
-}
-.card-img-wrapper{
-    width: 100%;
-    height: 100%;
-    background-color: #262626;
-    border-radius: .5rem;
-}
-.card-img-wrapper img{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    border-radius: .5rem;
-    opacity: .8;
-    transition: opacity .3s;
-}
-.card:hover .card-img-wrapper img{
-    opacity: .5;
+  
 }
 
-.card-infor{
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    bottom: 0;
-    padding: 2rem;
-    text-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0,.4);
-    transition: all .3s;
-}
+    /* Aréa do Profissional */
 
-.card-infor h2{
-  font-family:'Mulish' serif;
-  font-size: 2rem;
-  font-weight: 500;
-  color: rgb(207, 202, 202);
+    #salon-table {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    #salon-table-heading,
+    #salon-table-rows,
+    .salon-table-row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    #salon-table-heading {
+      font-weight: bold;
+      padding: 12px;
+      border-bottom: 3px solid #333;
+    }
+    .salon-table-row {
+      width: 100%;
+      padding: 12px;
+      border-bottom: 1px solid #CCC;
+    }
+    #salon-table-heading div,
+    .salon-table-row div {
+      width: 17%;
+    }
+    #salon-table-heading .order-id,
+    .salon-table-row .order-number {
+      width: 4%;
+    }
+    select {
+      padding: 12px 6px;
+      margin-right: 12px;
+    }
 
-}
+    .delete-btn{
+    background-color: rgb(0, 0, 0);
+    color:#ffffff;
+    font-weight: bold;
+    border: 2px solid #222;
+    padding: 8px;
+    font-size: 13px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: .5s;
+  }
+  
+  .delete-btn:hover {
+    background-color: transparent;
+    color: #222;
+  }
+  
 
-.card-infor p{
-  font-family: 'Mulish' serif;
-  font-weight: bolder;
-  color: white;
-  width: 80%;
-  margin-bottom: 2rem;
-}
 
-.card:hover .card-infor{
-  border: 2rem;
-  opacity: 1;
-  visibility:visible;
-}
