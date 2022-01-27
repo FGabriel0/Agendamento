@@ -16,7 +16,9 @@
           <div class="col">
               <form>
                 <div class="form-group">
-                  <label for="formGroupExampleInput">Chave de Acesso</label>
+                  <label for="formGroupExampleInput">Chave de Acesso
+                    <i class="fas fa-key"></i>
+                  </label>
                   <input type="text" class="form-control" id="chave" placeholder="Chave">
                 </div>
                 <div class="form-group">

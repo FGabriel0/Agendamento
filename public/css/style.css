@@ -133,7 +133,10 @@
   text-align: center;
   border-bottom: solid 10px;
   margin-bottom: 1.5rem;
-  
+}
+
+.card-deck{
+  margin-bottom: 10px;
 }
 
     /* Aréa do Profissional */

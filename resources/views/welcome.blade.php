@@ -16,7 +16,9 @@
         </div>
     </div>
         <div class="sessao-header">
-            <h1>Cortes Designs</h1>
+            <h1>
+              <i class="fas fa-cut"></i>
+              Cortes Designs</h1>
         </div>
 
     <div class="card-deck">
