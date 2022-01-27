@@ -80,4 +80,10 @@ footer{
           -webkit-overflow-scrolling: touch;
 
         }
+
+        .central{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
     }

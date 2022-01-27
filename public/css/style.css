@@ -17,6 +17,9 @@
     height: 100%;
 
   }
+  .color{
+    background-color: gray;
+  }
 
 .container{
   margin: 0;
@@ -192,7 +195,20 @@
     align-items: center;
     border-radius: 10px;
     border: black solid;
+    background-color: white;
   }
-  
+  .central{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .col .form-group label{
+      font-size: 20pt;
+  }
+  .col .form-group button{
+    margin: auto;
+    margin-left: 65px;
+  }
 
 

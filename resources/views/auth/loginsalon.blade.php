@@ -17,10 +17,10 @@
               <form>
                 <div class="form-group">
                   <label for="formGroupExampleInput">Chave de Acesso</label>
-                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Chave">
+                  <input type="text" class="form-control" id="chave" placeholder="Chave">
                 </div>
                 <div class="form-group">
-                  <button type="submit" class="btn btn-primary mr-1">
+                  <button type="submit" class="submit-btn">
                       Acessar
                   </button>
               </form>
@@ -28,9 +28,5 @@
    </div>
 </div>
 </div>
-
-
-
-@include('layouts.footer')
 
 @endsection
