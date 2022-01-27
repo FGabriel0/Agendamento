@@ -9,7 +9,7 @@ footer{
     justify-content: center;
     bottom: 0;
 }
-
+                          /* Responsive do celular */
 @media screen and (max-width:760px ) {
 
     .container{
@@ -43,8 +43,12 @@ footer{
       }
 
       .submit-btn{
-          left: -20px;
+         margin-left: 35%;
       }
+      .client-form{
+        height: 84%;
+      }
+
 
       .table-responsive {
         width: 100%;

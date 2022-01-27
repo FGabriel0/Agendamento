@@ -21,7 +21,7 @@
                     Ações
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <button class="dropdown-menu">Deletar</button>
+                        <button class="dropdown-item">Deletar</button>
                     </div>
                   </div>
             </th>
@@ -33,6 +33,7 @@
             <td>Mark</td>
             <td>Otto</td>
             <td>@mdo</td>
+            <td>...</td>
             <td>...</td>
             <td>...</td>
           </tr>

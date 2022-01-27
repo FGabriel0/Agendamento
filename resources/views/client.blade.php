@@ -3,6 +3,7 @@
 @section('title', 'Agendamento')
     
 @section('content')
+<div class="client-form">
       <div class="text-client">
         <h1>AGENDAMENTO</h1>
       </div>
@@ -41,7 +42,8 @@
             </div>
           </form>
           <button type="submit" class="submit-btn">Enviar</button>
-
+  </div>
+  
 @include('layouts.footer')
 
 @endsection

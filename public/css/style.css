@@ -184,6 +184,15 @@
     background-color: transparent;
     color: #222;
   }
+
+  .salon-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: black solid;
+  }
   
 
 

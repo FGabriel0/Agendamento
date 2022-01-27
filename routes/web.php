@@ -24,3 +24,7 @@ Route::get('/cliente', function () {
 Route::get('/Profissional', function () {
     return view('projects/salonprofessional');
 });
+
+Route::get('/login', function () {
+    return view('auth/loginsalon');
+});
