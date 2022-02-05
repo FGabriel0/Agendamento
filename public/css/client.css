@@ -9,6 +9,17 @@ footer{
     justify-content: center;
     bottom: 0;
 }
+
+.social-midia{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.social-midia p i{
+  padding-right: 5px;
+}
                           /* Responsive do celular */
 @media screen and (max-width:760px ) {
 
